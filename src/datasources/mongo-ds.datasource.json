@@ -1,0 +1,11 @@
+{
+  "name": "mongoDS",
+  "connector": "mongodb",
+  "url": "",
+  "host": "localhost",
+  "port": 27017,
+  "user": "app_user",
+  "password": "password",
+  "database": "demo",
+  "useNewUrlParser": true
+}
