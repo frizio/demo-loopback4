@@ -21,13 +21,12 @@ export class Products extends Entity {
   description?: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     id: true,
     required: true,
     generated: true,
   })
-  id: number;
-
+  id: string;
 
   constructor(data?: Partial<Products>) {
     super(data);
