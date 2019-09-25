@@ -23,10 +23,9 @@ export class Products extends Entity {
   @property({
     type: 'string',
     id: true,
-    required: true,
     generated: true,
   })
-  id: string;
+  id?: string;
 
   constructor(data?: Partial<Products>) {
     super(data);
